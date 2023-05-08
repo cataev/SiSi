@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d01e246a-d9fb-4816-bc10-a56ab29f7454" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/inventory/service/FakeInventoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/inventory/service/InventoryServiceBVATest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/inventory/service/InventoryServiceECPTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0af9949bf5541778be1f206b3e1e34397326e8d6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/model/Part.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/model/Part.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/service/InventoryService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +18,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,17 +39,10 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.31149426",
-    "settings.editor.selected.configurable": "AndroidSdkUpdater"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main\resources\data" />
@@ -65,7 +59,7 @@
       <recent name="inventory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.InventoryServiceECPTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inventory.Main" />
       <module name="Inventory" />
@@ -75,6 +69,36 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryServiceBVATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VVSS_Inventory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inventory.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="inventory.service" />
+      <option name="MAIN_CLASS_NAME" value="inventory.service.InventoryServiceBVATest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryServiceECPTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VVSS_Inventory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inventory.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="inventory.service" />
+      <option name="MAIN_CLASS_NAME" value="inventory.service.InventoryServiceECPTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,9 +132,13 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Maven.Inventory [exec:java]" />
+      <item itemvalue="JUnit.InventoryServiceBVATest" />
+      <item itemvalue="JUnit.InventoryServiceECPTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InventoryServiceECPTest" />
+        <item itemvalue="JUnit.InventoryServiceBVATest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -143,11 +171,23 @@
       <workItem from="1677483411785" duration="1742000" />
       <workItem from="1677486941391" duration="1304000" />
       <workItem from="1677488299059" duration="1133000" />
+      <workItem from="1683576319637" duration="325000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>
